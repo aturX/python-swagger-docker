@@ -34,3 +34,15 @@ main.py 主运行函数
 `
 pipreqs . --encoding=utf8
 `
+
+### 7. Docker hub 地址
+下载并启动
+`
+docker pull 167006261/api-swagger
+docker run -d -p 5000:5000 167006261/api-swagger
+`
+
+然后访问
+`
+http://localhost:5000/apidocs/
+`
