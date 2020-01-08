@@ -1,9 +1,9 @@
 import sys
 sys.path.append('../')  # 新加入的
-
+sys.path.append('.')  # 新加入的
 from flasgger import Swagger
 from flask import Flask
-from app.v1.sum_ab_controller import demo_sum
+from v1.sum_ab_controller import demo_sum
 
 app = Flask(__name__)
 
